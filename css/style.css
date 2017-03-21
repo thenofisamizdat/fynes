@@ -1,17 +1,18 @@
 .nav-bottom{
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(255,255,255,0.2);
 }
 .nav-top{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.35);
 }
 .contentArea{
     position: fixed;
-    height: 60%;
-    width: 60%;
-    right: 10%;
-    top: 22%;
-    background-color: rgba(0,0,0,.5);
+    height: 65%;
+    width: 70%;
+    right: 5%;
+    top: 23%;
+    background-color: rgba(255,255,255,.8);
     z-index: 501;
+    outline: 20px solid rgba(0,0,0,.3);
 }
 body{
 	padding:0;
@@ -122,11 +123,13 @@ body {
 .slider-wrapper {
 	z-index: 500;
 	position: relative;
-	width: 100%;
+	width: 114%;
 	height:875px;
 	background: #FFF;
 	border: 1px solid #000;
 	overflow: hidden;
+    -webkit-transform: translate(-12%, 0%); 
+    opacity: .8
 }
 .slider-wrapper li {
 	display: none;
